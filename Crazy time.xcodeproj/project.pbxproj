@@ -9,25 +9,59 @@
 /* Begin PBXBuildFile section */
 		7D1A3A372A0BC358008E4A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A362A0BC358008E4A6E /* AppDelegate.swift */; };
 		7D1A3A392A0BC358008E4A6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A382A0BC358008E4A6E /* SceneDelegate.swift */; };
-		7D1A3A3B2A0BC358008E4A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A3A2A0BC358008E4A6E /* ViewController.swift */; };
-		7D1A3A402A0BC35A008E4A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1A3A3F2A0BC35A008E4A6E /* Assets.xcassets */; };
+		7D1A3A3B2A0BC358008E4A6E /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A3A2A0BC358008E4A6E /* WinViewController.swift */; };
 		7D1A3A432A0BC35A008E4A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1A3A412A0BC35A008E4A6E /* LaunchScreen.storyboard */; };
 		7D1A3A4B2A0BC3F1008E4A6E /* GameWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A4A2A0BC3F1008E4A6E /* GameWheelViewController.swift */; };
 		7D1A3A4E2A0BC683008E4A6E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A4D2A0BC683008E4A6E /* SplashViewController.swift */; };
-		7D1A3A512A0BDA31008E4A6E /* BidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A502A0BDA31008E4A6E /* BidViewController.swift */; };
+		7D1A3A532A0CF6CC008E4A6E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A522A0CF6CC008E4A6E /* Data.swift */; };
+		7D1A3A592A0D127B008E4A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1A3A582A0D127B008E4A6E /* Assets.xcassets */; };
+		7D1A3A5B2A0D8485008E4A6E /* FortuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A5A2A0D8485008E4A6E /* FortuneViewController.swift */; };
+		7D1A3A602A0EF5A1008E4A6E /* CurlzMT.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D1A3A552A0D08E2008E4A6E /* CurlzMT.ttf */; };
+		7D1A3A622A0EF816008E4A6E /* DicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A3A612A0EF816008E4A6E /* DicesViewController.swift */; };
+		7D67424A2A11149900A6CBFF /* GameDicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6742492A11149900A6CBFF /* GameDicesViewController.swift */; };
+		7D69BBCA2A12FF2A003C3007 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC12A12FF2A003C3007 /* click.mp3 */; };
+		7D69BBCB2A12FF2A003C3007 /* vzux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC22A12FF2A003C3007 /* vzux.mp3 */; };
+		7D69BBCC2A12FF2A003C3007 /* appearance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC32A12FF2A003C3007 /* appearance.mp3 */; };
+		7D69BBCD2A12FF2A003C3007 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC42A12FF2A003C3007 /* audio.mp3 */; };
+		7D69BBCE2A12FF2A003C3007 /* timeOut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC52A12FF2A003C3007 /* timeOut.mp3 */; };
+		7D69BBCF2A12FF2A003C3007 /* incorrect choice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC62A12FF2A003C3007 /* incorrect choice.mp3 */; };
+		7D69BBD02A12FF2A003C3007 /* correct choice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC72A12FF2A003C3007 /* correct choice.mp3 */; };
+		7D69BBD12A12FF2A003C3007 /* tik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D69BBC82A12FF2A003C3007 /* tik.mp3 */; };
+		7D69BBD42A12FF58003C3007 /* MusicAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69BBD32A12FF58003C3007 /* MusicAudioPlayer.swift */; };
+		7D69BBD62A1300E0003C3007 /* SoundAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69BBD52A1300E0003C3007 /* SoundAudioPlayer.swift */; };
+		7DA88D9F2A12485300EA1A3C /* ChoiseWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA88D9E2A12485300EA1A3C /* ChoiseWheelViewController.swift */; };
+		7DA88DA22A124C2E00EA1A3C /* ChoiseWheelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA88DA12A124C2E00EA1A3C /* ChoiseWheelCell.swift */; };
+		7DB84DC62A226F4D00EFF538 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB84DC52A226F4D00EFF538 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D1A3A332A0BC358008E4A6E /* Crazy time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1A3A362A0BC358008E4A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D1A3A382A0BC358008E4A6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D1A3A3A2A0BC358008E4A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D1A3A3F2A0BC35A008E4A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1A3A3A2A0BC358008E4A6E /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
 		7D1A3A422A0BC35A008E4A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1A3A442A0BC35A008E4A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D1A3A4A2A0BC3F1008E4A6E /* GameWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWheelViewController.swift; sourceTree = "<group>"; };
 		7D1A3A4D2A0BC683008E4A6E /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
-		7D1A3A502A0BDA31008E4A6E /* BidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidViewController.swift; sourceTree = "<group>"; };
+		7D1A3A522A0CF6CC008E4A6E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		7D1A3A552A0D08E2008E4A6E /* CurlzMT.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CurlzMT.ttf; sourceTree = "<group>"; };
+		7D1A3A582A0D127B008E4A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1A3A5A2A0D8485008E4A6E /* FortuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneViewController.swift; sourceTree = "<group>"; };
+		7D1A3A612A0EF816008E4A6E /* DicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicesViewController.swift; sourceTree = "<group>"; };
+		7D6742492A11149900A6CBFF /* GameDicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDicesViewController.swift; sourceTree = "<group>"; };
+		7D69BBC12A12FF2A003C3007 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		7D69BBC22A12FF2A003C3007 /* vzux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vzux.mp3; sourceTree = "<group>"; };
+		7D69BBC32A12FF2A003C3007 /* appearance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = appearance.mp3; sourceTree = "<group>"; };
+		7D69BBC42A12FF2A003C3007 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		7D69BBC52A12FF2A003C3007 /* timeOut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timeOut.mp3; sourceTree = "<group>"; };
+		7D69BBC62A12FF2A003C3007 /* incorrect choice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "incorrect choice.mp3"; sourceTree = "<group>"; };
+		7D69BBC72A12FF2A003C3007 /* correct choice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "correct choice.mp3"; sourceTree = "<group>"; };
+		7D69BBC82A12FF2A003C3007 /* tik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tik.mp3; sourceTree = "<group>"; };
+		7D69BBD32A12FF58003C3007 /* MusicAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAudioPlayer.swift; sourceTree = "<group>"; };
+		7D69BBD52A1300E0003C3007 /* SoundAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAudioPlayer.swift; sourceTree = "<group>"; };
+		7DA88D9E2A12485300EA1A3C /* ChoiseWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiseWheelViewController.swift; sourceTree = "<group>"; };
+		7DA88DA12A124C2E00EA1A3C /* ChoiseWheelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiseWheelCell.swift; sourceTree = "<group>"; };
+		7DB84DC52A226F4D00EFF538 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +94,17 @@
 		7D1A3A352A0BC358008E4A6E /* Crazy time */ = {
 			isa = PBXGroup;
 			children = (
-				7D1A3A4C2A0BC4D9008E4A6E /* GameWheel */,
 				7D1A3A4F2A0BC68C008E4A6E /* SplashViewController */,
-				7D1A3A362A0BC358008E4A6E /* AppDelegate.swift */,
-				7D1A3A382A0BC358008E4A6E /* SceneDelegate.swift */,
-				7D1A3A3A2A0BC358008E4A6E /* ViewController.swift */,
-				7D1A3A3F2A0BC35A008E4A6E /* Assets.xcassets */,
-				7D1A3A412A0BC35A008E4A6E /* LaunchScreen.storyboard */,
+				7D1A3A5D2A0D84A1008E4A6E /* Fortune */,
+				7DA88DA02A12486500EA1A3C /* ChoiseWheel */,
+				7D1A3A4C2A0BC4D9008E4A6E /* GameWheel */,
+				7D1A3A632A0EF81B008E4A6E /* Dices */,
+				7D67424B2A111C7D00A6CBFF /* GameDices */,
+				7DA88DA32A126C3300EA1A3C /* Win */,
+				7D69BBC02A12FE9B003C3007 /* Resources */,
+				7DB84DC52A226F4D00EFF538 /* Constants.swift */,
+				7D69BBBF2A12FE72003C3007 /* Audio */,
+				7D1A3A5C2A0D848D008E4A6E /* Fonts */,
 				7D1A3A442A0BC35A008E4A6E /* Info.plist */,
 			);
 			path = "Crazy time";
@@ -76,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				7D1A3A4A2A0BC3F1008E4A6E /* GameWheelViewController.swift */,
-				7D1A3A502A0BDA31008E4A6E /* BidViewController.swift */,
 			);
 			path = GameWheel;
 			sourceTree = "<group>";
@@ -87,6 +124,84 @@
 				7D1A3A4D2A0BC683008E4A6E /* SplashViewController.swift */,
 			);
 			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		7D1A3A5C2A0D848D008E4A6E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A3A552A0D08E2008E4A6E /* CurlzMT.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7D1A3A5D2A0D84A1008E4A6E /* Fortune */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A3A5A2A0D8485008E4A6E /* FortuneViewController.swift */,
+			);
+			path = Fortune;
+			sourceTree = "<group>";
+		};
+		7D1A3A632A0EF81B008E4A6E /* Dices */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A3A612A0EF816008E4A6E /* DicesViewController.swift */,
+			);
+			path = Dices;
+			sourceTree = "<group>";
+		};
+		7D67424B2A111C7D00A6CBFF /* GameDices */ = {
+			isa = PBXGroup;
+			children = (
+				7D6742492A11149900A6CBFF /* GameDicesViewController.swift */,
+			);
+			path = GameDices;
+			sourceTree = "<group>";
+		};
+		7D69BBBF2A12FE72003C3007 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				7D69BBD32A12FF58003C3007 /* MusicAudioPlayer.swift */,
+				7D69BBD52A1300E0003C3007 /* SoundAudioPlayer.swift */,
+				7D69BBC32A12FF2A003C3007 /* appearance.mp3 */,
+				7D69BBC42A12FF2A003C3007 /* audio.mp3 */,
+				7D69BBC12A12FF2A003C3007 /* click.mp3 */,
+				7D69BBC72A12FF2A003C3007 /* correct choice.mp3 */,
+				7D69BBC62A12FF2A003C3007 /* incorrect choice.mp3 */,
+				7D69BBC82A12FF2A003C3007 /* tik.mp3 */,
+				7D69BBC52A12FF2A003C3007 /* timeOut.mp3 */,
+				7D69BBC22A12FF2A003C3007 /* vzux.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		7D69BBC02A12FE9B003C3007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A3A362A0BC358008E4A6E /* AppDelegate.swift */,
+				7D1A3A382A0BC358008E4A6E /* SceneDelegate.swift */,
+				7D1A3A412A0BC35A008E4A6E /* LaunchScreen.storyboard */,
+				7D1A3A582A0D127B008E4A6E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DA88DA02A12486500EA1A3C /* ChoiseWheel */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A3A522A0CF6CC008E4A6E /* Data.swift */,
+				7DA88DA12A124C2E00EA1A3C /* ChoiseWheelCell.swift */,
+				7DA88D9E2A12485300EA1A3C /* ChoiseWheelViewController.swift */,
+			);
+			path = ChoiseWheel;
+			sourceTree = "<group>";
+		};
+		7DA88DA32A126C3300EA1A3C /* Win */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A3A3A2A0BC358008E4A6E /* WinViewController.swift */,
+			);
+			path = Win;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +262,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D69BBCE2A12FF2A003C3007 /* timeOut.mp3 in Resources */,
+				7D69BBCC2A12FF2A003C3007 /* appearance.mp3 in Resources */,
+				7D1A3A602A0EF5A1008E4A6E /* CurlzMT.ttf in Resources */,
+				7D69BBCB2A12FF2A003C3007 /* vzux.mp3 in Resources */,
+				7D69BBCA2A12FF2A003C3007 /* click.mp3 in Resources */,
+				7D69BBCF2A12FF2A003C3007 /* incorrect choice.mp3 in Resources */,
+				7D69BBCD2A12FF2A003C3007 /* audio.mp3 in Resources */,
+				7D1A3A592A0D127B008E4A6E /* Assets.xcassets in Resources */,
 				7D1A3A432A0BC35A008E4A6E /* LaunchScreen.storyboard in Resources */,
-				7D1A3A402A0BC35A008E4A6E /* Assets.xcassets in Resources */,
+				7D69BBD12A12FF2A003C3007 /* tik.mp3 in Resources */,
+				7D69BBD02A12FF2A003C3007 /* correct choice.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,12 +283,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D1A3A3B2A0BC358008E4A6E /* ViewController.swift in Sources */,
-				7D1A3A512A0BDA31008E4A6E /* BidViewController.swift in Sources */,
+				7D1A3A5B2A0D8485008E4A6E /* FortuneViewController.swift in Sources */,
+				7D69BBD42A12FF58003C3007 /* MusicAudioPlayer.swift in Sources */,
+				7D1A3A3B2A0BC358008E4A6E /* WinViewController.swift in Sources */,
+				7DA88D9F2A12485300EA1A3C /* ChoiseWheelViewController.swift in Sources */,
+				7DA88DA22A124C2E00EA1A3C /* ChoiseWheelCell.swift in Sources */,
 				7D1A3A372A0BC358008E4A6E /* AppDelegate.swift in Sources */,
 				7D1A3A4B2A0BC3F1008E4A6E /* GameWheelViewController.swift in Sources */,
 				7D1A3A392A0BC358008E4A6E /* SceneDelegate.swift in Sources */,
 				7D1A3A4E2A0BC683008E4A6E /* SplashViewController.swift in Sources */,
+				7D1A3A622A0EF816008E4A6E /* DicesViewController.swift in Sources */,
+				7D1A3A532A0CF6CC008E4A6E /* Data.swift in Sources */,
+				7DB84DC62A226F4D00EFF538 /* Constants.swift in Sources */,
+				7D67424A2A11149900A6CBFF /* GameDicesViewController.swift in Sources */,
+				7D69BBD62A1300E0003C3007 /* SoundAudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

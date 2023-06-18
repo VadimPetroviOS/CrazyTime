@@ -9,6 +9,8 @@ import UIKit
 
 final class SplashViewController: UIViewController {
     
+    let defaults = UserDefaults.standard
+    
     private let background: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "BG")
@@ -43,9 +45,24 @@ final class SplashViewController: UIViewController {
         setSubviews()
         setConstarints()
         self.wheel.layer.add(rotationAnimation(3.0, Double.pi * 2.0), forKey: "rotationAnimation")
+        var soundValue: Float = 10
+        var musicValue: Float = 5
+        let valueValue = self.defaults.object(forKey: "value") ?? "1000"
+        let indexValue = self.defaults.object(forKey: "index") ?? 0
+        if let soundNumberValue = self.defaults.object(forKey: "soundNumber") as? Float {
+            soundValue = soundNumberValue
+        }
+        if let musicNumberValue = self.defaults.object(forKey: "musicNumber") as? Float {
+            musicValue = musicNumberValue
+        }
+
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.75) {
-            self.view.window?.rootViewController = UINavigationController(rootViewController: GameWheelViewController())
+            self.view.window?.rootViewController = UINavigationController(rootViewController: FortuneViewController(
+                value: valueValue as! String,
+                index: indexValue as! Int,
+                soundNumber: soundValue, //soundNumberValue as! Float
+                musicNumber: musicValue)) //musicNumberValue as! Float
         }
     }
     
@@ -73,18 +90,18 @@ final class SplashViewController: UIViewController {
             
             wheel.centerXAnchor.constraint(equalTo: background.centerXAnchor),
             wheel.centerYAnchor.constraint(equalTo: background.centerYAnchor),
-            wheel.widthAnchor.constraint(equalToConstant: 330),
-            wheel.heightAnchor.constraint(equalToConstant: 330),
+            wheel.widthAnchor.constraint(equalToConstant: Constants.setSizeY(330)),
+            wheel.heightAnchor.constraint(equalToConstant: Constants.setSizeY(330)),
             
             baseWheels.centerXAnchor.constraint(equalTo: background.centerXAnchor),
             baseWheels.centerYAnchor.constraint(equalTo: background.centerYAnchor),
-            baseWheels.widthAnchor.constraint(equalToConstant: 340),
-            baseWheels.heightAnchor.constraint(equalToConstant: 330),
+            baseWheels.widthAnchor.constraint(equalToConstant: Constants.setSizeY(340)),
+            baseWheels.heightAnchor.constraint(equalToConstant: Constants.setSizeY(330)),
             
             roll.centerXAnchor.constraint(equalTo: background.centerXAnchor),
             roll.centerYAnchor.constraint(equalTo: background.centerYAnchor),
-            roll.widthAnchor.constraint(equalToConstant: 125),
-            roll.heightAnchor.constraint(equalToConstant: 125),
+            roll.widthAnchor.constraint(equalToConstant: Constants.setSizeY(125)),
+            roll.heightAnchor.constraint(equalToConstant: Constants.setSizeY(125)),
         ])
     }
     
